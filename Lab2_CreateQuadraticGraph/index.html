@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Solve quadratic equation</h1>
+<!--<div>-->
+    <!--<h1>Press button to start</h1>-->
+    <!--<button onclick="showPrompt()">Button</button>-->
+<!--</div>-->
+<p1>Enter you equation in the box and press solve equation to solve it.</p1><br>
+<input type="text" name="enter" id="string_equation" value="x^2+2x-1=0"/>
+<input type="button" value="Solve Equation" onclick="executeProgram()"/>
+<div>
+    <div id="message1"></div>
+    <div id="message2"></div>
+</div>
+<div>
+    <canvas id="myChart" width="400" height="400"></canvas>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.8.0/math.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<script src="jedi.js"></script>
+</body>
+</html>
